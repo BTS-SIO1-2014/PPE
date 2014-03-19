@@ -1,0 +1,8 @@
+Afficher les utilisateurs connecté :
+Lorsqu'un utilisateur se connecte sur le site pour le consulter
+Un compteur (vert) affiche les membres connectés, "et un compteur rouge affiche les membres non-connectés".
+
+compteur = 0
+Pour chaque utilisateur connecter 
+	ajouter +1 au compteur
+afficher le compteur

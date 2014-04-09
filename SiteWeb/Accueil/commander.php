@@ -3,7 +3,8 @@
 	$TITRE = "Commander";
 	include("header.php");
 ?>
-
+	<link href="css/dashboard.css" rel="stylesheet">
+	<link href="css/tableauCSS.css" rel="stylesheet">
     <!-- Begin page content -->
     <div class="container">
       <div class="page-header">
@@ -66,4 +67,6 @@
 	   <td>..........</td>
 	   <td>..........</td>
    </tr>
+</table>
+<?php include("footer.php"); ?>
 </html>

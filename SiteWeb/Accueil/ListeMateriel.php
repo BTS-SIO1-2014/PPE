@@ -1,56 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../fonts/logo.jpg">
-
-    <title>Société 3S</title>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="sticky-footer-navbar.css" rel="stylesheet">
-
-    <link href="css/dashboard.css" rel="stylesheet">
 
 
-  </head>
+<?php
+include ("header.php");
+?>
 
-  <body>
+<link href="css/dashboard.css" rel="stylesheet">
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="../../Accueil.html">Accueil</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Compte</a></li>
-            <li><a href="#about">Se connecter</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matériels <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="../ListeMateriel/ListeMateriel.html">Liste du matériel</a></li>
-                <li><a href="../commander/commander.html">Commander</a></li>
-				<li><a href="../supprimerCommande/supprimer_commande.html">Supprimer une commande</a></li>
-                <li><a href="../GestionnaireDeCommande/commande.html">Gestionnaire de commandes</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
 
     <!-- Begin page content -->
 <div class="container-fluid">
@@ -148,10 +103,6 @@
     </div>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+<?php
+include("footer.php");
+?>

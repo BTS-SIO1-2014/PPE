@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<?php include("header.php"); ?>
+<?php 
+	$TITRE = "Accueil";
+	include("header.php"); 
+?>
 
     <!-- Begin page content -->
 	<div class="container marketing">

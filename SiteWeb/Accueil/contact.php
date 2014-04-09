@@ -1,4 +1,5 @@
 <?php
+	$TITRE= "Contact";
 	include ("header.php");
 ?>
 

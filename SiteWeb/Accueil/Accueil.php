@@ -21,7 +21,7 @@
           
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="fonts/salle.gif" alt="Generic placeholder image">
+          <img class="img-circle" src="img/salle.gif" alt="Generic placeholder image">
           <h2>Grandes salles</h2>
           <p>23 salles pour mettre en oeuvre vos spectacles.</p>
         
@@ -35,7 +35,7 @@
 		</br>
 		</br>
 		</br>
-          <img class="img-circle" src="fonts/logo.jpg" alt="Generic placeholder image">
+          <img class="img-circle" src="img/logo.jpg" alt="Generic placeholder image">
           <h2>Déplacement</h2>
           <p>Toujours en facilité avec mis à disposition de caisses pour déplacer votre matériels</p>
          

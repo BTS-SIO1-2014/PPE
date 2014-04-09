@@ -1,11 +1,9 @@
 
-
 <?php
 include ("header.php");
 ?>
 
 <link href="css/dashboard.css" rel="stylesheet">
-
 
     <!-- Begin page content -->
 <div class="container-fluid">

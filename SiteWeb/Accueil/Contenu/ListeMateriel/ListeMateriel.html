@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="fonts/logo.jpg">
+
+    <title>Société 3S</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <link href="css/dashboard.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../Accueil.html">Accueil</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Compte</a></li>
+            <li><a href="#about">Se connecter</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matériels <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="../ListeMateriel/ListeMateriel.html">Liste du matériel</a></li>
+                <li><a href="../commander/commander.html">Commander</a></li>
+				<li><a href="../supprimerCommande/supprimer_commande.html">Supprimer une commande</a></li>
+                <li><a href="../GestionnaireDeCommande/commande.html">Gestionnaire de commandes</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- Begin page content -->
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Categories:</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Lumière</a></li>
+			<li><a href="#">Décors</a></li>
+			<li><a href="#">Costume</a></li>
+			
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Par quantité restante</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="">Tout afficher</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+		</br>
+		</br>
+          <h1 class="page-header">Liste du matériel</h1>
+
+          <h6 class="sub-header">Responsable: Monsieur Dupont</h6>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Désignation</th>
+                  <th>État</th>
+                  <th>Quantité</th>
+                  <th>Salle</th>
+                  <th>Dernier Utilisateur</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Machine à fumée</td>
+                  <td>Disponible</td>
+                  <td>4</td>
+                  <td>Numéro 21</td>
+                  <td>Mr Gilles</td>
+                </tr>
+                <tr>
+                  <td>Ordinateur</td>
+                  <td>Non disponible</td>
+                  <td>5</td>
+                  <td>Numéro 14</td>
+                  <td>Mme Sophie</td>
+                </tr>
+                <tr>
+                  <td>Stromboscope</td>
+                  <td>Disponible</td>
+                  <td>5</td>
+                  <td>Numéro 14</td>
+                  <td>Mr Philippe</td>
+                </tr>
+                <tr>
+                  <td>Enceintes</td>
+                  <td>Disponible</td>
+                  <td>10</td>
+                  <td>Numéro 15</td>
+                  <td>Mme Jeanne</td>
+                </tr>
+                <tr>
+                  <td>Lumière rouge</td>
+                  <td>Non disponible</td>
+                  <td>3</td>
+                  <td>Numéro 16</td>
+                  <td>Mr Eric</td>
+                </tr>
+                <tr>
+                  <td>Projecteur de scène</td>
+                  <td>Non disponible</td>
+                  <td>3</td>
+                  <td>Numéro 2</td>
+                  <td>Mme Valérie</td>
+                </tr>
+                <tr>
+                  <td>Paires de rideaux</td>
+                  <td>Disponible</td>
+                  <td>6</td>
+                  <td>Numéro 18</td>
+                  <td>Mr Jacques</td>
+                </tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

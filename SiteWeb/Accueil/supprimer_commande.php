@@ -90,5 +90,5 @@ include("header.php");
     ================================================== -->
   <?php 
 
-include("SiteWeb/Accueil/footer.php");
+include("footer.php");
 ?>

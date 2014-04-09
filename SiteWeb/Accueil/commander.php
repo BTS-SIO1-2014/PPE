@@ -67,4 +67,6 @@
 	   <td>..........</td>
 	   <td>..........</td>
    </tr>
+</table>
+<?php include("footer.php"); ?>
 </html>

@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="fonts/logo.jpg">
 
-    <title>Société 3S</title>
+    <title><?php echo $TITRE ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Accueil</a>
+          <a class="navbar-brand" href="Accueil.php">Accueil</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -48,10 +48,10 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matériels <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="Contenu/ListeMateriel/ListeMateriel.html">Liste du matériel</a></li>
-                <li><a href="Contenu/commander/commander.html">Commander</a></li>
-				<li><a href="Contenu/supprimerCommande/supprimer_commande.html">Supprimer une commande</a></li>
-                <li><a href="Contenu/GestionnaireDeCommande/commande.html">Gestionnaire de commandes</a></li>
+                <li><a href="ListeMateriel.php">Liste du matériel</a></li>
+                <li><a href="commander.php">Commander</a></li>
+				<li><a href="supprimer_commande.php">Supprimer une commande</a></li>
+                <li><a href="commande.php">Gestionnaire de commandes</a></li>
               </ul>
             </li>
           </ul>

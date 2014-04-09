@@ -44,7 +44,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Compte</a></li>
             <li><a href="#about">Se connecter</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matériels <b class="caret"></b></a>
               <ul class="dropdown-menu">

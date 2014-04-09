@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+	$TITRE = "Gestion des commandes";
 	include("header.php");
 ?>
 

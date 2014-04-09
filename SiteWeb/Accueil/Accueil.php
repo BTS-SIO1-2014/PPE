@@ -15,7 +15,7 @@
 	  </br>
 	  </br>
         <div class="col-lg-4">
-          <img class="img-circle" src="fonts/ampli.jpg" alt="Generic placeholder image">
+          <img class="img-circle" src="img/ampli.jpg" alt="Generic placeholder image">
           <h2>Matériels performants</h2>
           <p>Mis à votre disposition, répondant à vos besoins.</p>
           

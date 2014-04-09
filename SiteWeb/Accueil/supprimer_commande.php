@@ -12,17 +12,17 @@ include("header.php");
 
           <div class="row placeholders">
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="fonts/aquitaine.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail">
+              <img src="img/aquitaine.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail">
               <h4>Aquitaine</h4>
               <span class="text-muted"> une région d'une incroyable diversité </span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="fonts/salle.png" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="img/salle.png" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4>Des belles salles</h4>
               <span class="text-muted">  Nous assurons votre confort</span>
             </div>
             <div class="col-xs-6 col-sm-3 placeholder">
-              <img src="fonts/image.jpg.jpg" class="img-responsive" alt="Generic placeholder thumbnail">
+              <img src="img/image.jpg.jpg" class="img-responsive" alt="Generic placeholder thumbnail">
               <h4>Livraison sur site</h4>
               <span class="text-muted">remise en main personnalisée</span>
             </div>
@@ -49,7 +49,7 @@ include("header.php");
                   <td>50</td>
                   <td>2</td>
                   <td>100</td>
-				  <td><li><a href="#"><img src="fonts/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
+				  <td><li><a href="#"><img src="img/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
 				  
                 </tr>
                 <tr>
@@ -58,7 +58,7 @@ include("header.php");
                   <td>45</td>
                   <td>1</td>
                   <td>45</td>
-				 <td><li><a href="#"><img src="fonts/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
+				 <td><li><a href="#"><img src="img/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
                 </tr>
                 <tr>
                   <td>09/04/2014</td>
@@ -66,7 +66,7 @@ include("header.php");
                   <td>20</td>
                   <td>5</td>
                   <td>100</td>
-				  <td><li><a href="#"><img src="fonts/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
+				  <td><li><a href="#"><img src="img/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
                 </tr>
                 <tr>
                   <td>10/04/2014</td>
@@ -74,7 +74,7 @@ include("header.php");
                   <td>100</td>
                   <td>2</td>
                   <td>200</td>
-				  <td><li><a href="#"><img src="fonts/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
+				  <td><li><a href="#"><img src="img/corb.jpg"  class="img-responsive"  alt="Generic placeholder thumbnail"></a></li></td>
                 </tr>
                 
                 

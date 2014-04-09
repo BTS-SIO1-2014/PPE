@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="fonts/logo.jpg">
 
-    <title>Société 3S</title>
+    <title><?php echo $TITRE ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">

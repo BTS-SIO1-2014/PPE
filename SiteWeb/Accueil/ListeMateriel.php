@@ -1,6 +1,7 @@
 
 <?php
-include ("header.php");
+	$TITRE = "Liste du matériel";
+	include ("header.php");
 ?>
 
 <link href="css/dashboard.css" rel="stylesheet">
